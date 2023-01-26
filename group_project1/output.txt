@@ -1,0 +1,215 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 5 nodes and 5 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: a
+
+	- Input error: only numbers accepted!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 5 nodes and 5 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: 6
+
+	- Number 6 is not an option!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 5 nodes and 5 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: 1
+
+C:\Users\andre\Desktop\Github\CCTB-Data-Engineering\Introduction to Data Structures\group_project1\graphic_program.py:55: MatplotlibDeprecationWarning: Support for FigureCanvases without a required_interactive_framework attribute was deprecated in Matplotlib 3.6 and will be removed two minor releases later.
+  pyplot.show()
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 5 nodes and 5 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: 2
+
+	Vertices: ['A', 'B', 'C', 'D', 'E'] 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 5 nodes and 5 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: 3
+
+	Edges: [('A', 'A'), ('B', 'B'), ('C', 'C'), ('D', 'D'), ('E', 'E')] 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 5 nodes and 5 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: 4
+
+	Enter the vertex you want to add: a
+
+		- Vertex A already exists!
+
+	Enter the vertex you want to add: andre
+
+		- Vertex's name must be a letter!
+
+	Enter the vertex you want to add: g
+
+		Vertex added!
+		Vertices: ['A', 'B', 'C', 'D', 'E', 'G']
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 6 nodes and 6 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: 5
+
+	Vertices: ['A', 'B', 'C', 'D', 'E', 'G']
+	Enter the vertex you want to remove: r
+		- Error: that vertex doesn't exists
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 6 nodes and 6 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: 4
+
+	Enter the vertex you want to add: g
+
+		- Vertex G already exists!
+
+	Enter the vertex you want to add: r
+
+		Vertex added!
+		Vertices: ['A', 'B', 'C', 'D', 'E', 'G', 'R']
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 7 nodes and 7 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: 5
+
+	Vertices: ['A', 'B', 'C', 'D', 'E', 'G', 'R']
+	Enter the vertex you want to remove: r
+
+		Vertex removed!
+		Vertices: ['A', 'B', 'C', 'D', 'E', 'G']
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running program...
+Graph with 6 nodes and 6 edges
+
+Options:
+
+	1. Display the graphic
+	2. Print vertices/nodes
+	3. Print edges
+	4. Add vertex
+	5. Delete vertex
+	0. Exit
+
+Choose one: 0
+
+	Bye, thank you for using our graphic program!
+
+Process finished with exit code 0

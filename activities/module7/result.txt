@@ -1,0 +1,5 @@
+Name Average
+Anna 6.25
+Peter 5.5
+John 5.25
+Julie 5.25

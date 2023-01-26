@@ -1,0 +1,5 @@
+Name Math Physics Chemical English
+Anna 10 3 5 7
+Peter 2 4 7 9
+John 5 7 6 3
+Julie 2 4 7 8
