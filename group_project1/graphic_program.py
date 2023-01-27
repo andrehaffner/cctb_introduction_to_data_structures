@@ -84,39 +84,24 @@ while True:
 
         # 5. Remove vertice
         elif chosen_option == 5:
-
-            n = input(f"\n\tVertices: {myGraphic.nodes}\n\tEnter the vertex you want to remove: ", ).upper()
+            n = input(f"\n\tVertices: {myGraphic.nodes}\n\n\tEnter the vertex you want to remove: ", ).upper()
             if n not in myGraphic.nodes:
                 print("\t\t- Error: that vertex doesn't exists\n")
             else:
                 myGraphic.remove_node(n)
-                print(f"\n\t\tVertex removed!\n\t\tVertices: {myGraphic.nodes}\n")
+                print(f"\n\tVertex removed!\n\tVertices: {myGraphic.nodes}\n")
             sleep(1)
 
         # 0. Exit
         elif chosen_option == 0:
             print("\n\tBye, thank you for using our graphic program!")
-            print("Shutting down...")
+            print("\nShutting down...")
             break
 
-        # Other numbers
+        # X. Other numbers
         else:
             print(f"\n\t- Number {chosen_option} is not an option!\n")
 
     # If input is nt a number (int() function on line 27 will return error)
     except ValueError:
         print("\n\t- Input error: only numbers accepted!\n")
-
-
-"""
-
-For the power point apresentation, i suggest that we introduce our program as an infinit while loop, that keeps asking 
-for the user to intercact with it.
-
-To cover the possibility of the user not inputing an int, we used try/except
-
-And for choosing which path to go in accord to the input, we have an if, elif, else statement
-
-So, each interaction the user makes generates a result: error messages, prints, displays, accordingly to the input
-
-"""
