@@ -16,6 +16,7 @@ myGraphic.add_edge("B", "B")
 myGraphic.add_edge("C", "C")
 myGraphic.add_edge("D", "D")
 myGraphic.add_edge("E", "E")
+myGraphic.add_edge("A", "B")
 
 
 # alphabet tuple // line string // options string (\n is jump line and \t is paragraph)
@@ -49,8 +50,8 @@ while True:
                       font_size=20,
                       font_weight="bold",
                       with_labels=True,
-                      node_color = "red",
-                      node_size = 3000)
+                      node_color="red",
+                      node_size=3000)
             pyplot.margins(0.2)
             pyplot.show()
             print("")
@@ -76,8 +77,14 @@ while True:
                     print(f"\n\t\t- Vertex {n} already exists!")
                 else:
                     myGraphic.add_node(n)
-                    myGraphic.add_edge(n, "A")
-                    # print nodes after adding a new one
+                    print("\tEdges:", [x[0] for x in myGraphic.edges])
+                    while True:
+                        edge = input("\tChoose the edge: ")
+                        if edge in [x[0] for x in myGraphic.edges]:
+                            myGraphic.add_edge(n, edge)
+                            break
+                        else:
+                            print("\tEdge not found")
                     print(f"\n\t\tVertex added!\n\t\tVertices: {myGraphic.nodes}\n")
                     break
             sleep(1)
